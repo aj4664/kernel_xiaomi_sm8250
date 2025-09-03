@@ -6,7 +6,7 @@
 mainmenu "Linux/$(ARCH) $(KERNELVERSION) Kernel Configuration"
 
 source "scripts/Kconfig.include"
-
+source "docker/Kconfig"
 source "init/Kconfig"
 
 source "kernel/Kconfig.freezer"
